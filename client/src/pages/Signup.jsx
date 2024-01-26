@@ -17,7 +17,7 @@ const Signup = () => {
                             <input type='Email' placeholder='Enter email No' className='border-2 w-96 p-2 rounded-xl ' />
                             <input type='password' placeholder='Enter Password' className='border-2 w-96 p-2 rounded-xl ' />
                             <input type='password' placeholder='Enter Confirm Password' className='border-2 w-96 p-2 rounded-xl ' />
-                            <input type='submit' className='cursor-pointer hover:rounded-md border-2 border-green-400 px-5 py-2' />
+                            <button type='submit' className='cursor-pointer border-2 border-green-400 hover:rounded-md px-5 py-2' >SignUp</button>
                             <span className='text-green-600 cursor-pointer'>You Already have an Account?</span>
                         </form>
                     </div>

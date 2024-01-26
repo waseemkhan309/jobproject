@@ -9,7 +9,7 @@ const Signin = () => {
             <div className='bg-gray-300 h-screen  '>
                 <div className='container mx-auto pt-[10vh] '>
                     <div className='bg-green-600 text-white  h-[10vh] flex justify-center items-center'>
-                        <h1 className='text-2xl'>Login to WebBook</h1>
+                        <h1 className='text-2xl'>Signin to WebBook</h1>
                     </div>
                     <div className='bg-white p-10  flex flex-col justify-center items-center'>
                         <form className='flex flex-col justify-center items-center gap-5'>
@@ -24,7 +24,7 @@ const Signin = () => {
                                 </div>
                                 <span className='text-green-600 pointer'>Forget Password?</span>
                             </div>
-                            <button type='submit' className='cursor-pointer border-2 border-green-400 hover:rounded-md px-5 py-2' >Login</button>
+                            <button type='submit' className='cursor-pointer border-2 border-green-400 hover:rounded-md px-5 py-2' >SignIn</button>
                             <span className='text-green-600'>Don't have an account?</span>
                         </form>
                     </div>
