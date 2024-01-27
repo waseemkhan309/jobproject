@@ -4,7 +4,7 @@ import React from 'react'
 const Services = () => {
     return (
         <div>
-            <div className='flex justify-between p-10 '>
+            <div className=' flex justify-between p-10 '>
                 <h1 className='text-4xl'>Main Services</h1>
                 <button className='bg-color-primary px-10 py-3 border-rad text-white font-semibold'>Become a Provider</button>
             </div>
