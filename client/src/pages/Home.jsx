@@ -5,6 +5,8 @@ import Section from '../component/Section'
 import Register from '../component/Register'
 import Services from '../component/Services'
 import Layout from '../component/Layout'
+import Testinomials from '../component/Testinomials'
+import Footer from '../component/Footer'
 
 const Home = () => {
     return (
@@ -14,6 +16,8 @@ const Home = () => {
             <Register />
             <Services />
             <Layout />
+            <Testinomials />
+            <Footer />
         </>
     )
 }
