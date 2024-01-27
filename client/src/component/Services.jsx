@@ -7,21 +7,23 @@ const Services = () => {
         <div>
             <div className=' flex justify-between p-10 '>
                 <h1 className='text-4xl'>Main Services</h1>
-                <Link to='/banquate'>
-                    <button className='bg-color-primary px-10 py-3 border-rad text-white font-semibold'>Become a Provider</button>
-                </Link>
+                <button className='bg-color-primary px-10 py-3 border-rad text-white font-semibold'>Become a Provider</button>
             </div>
             <div className='flex space-5 gap-5 p-5  w-full flex-wrap '>
+
                 <div className='flex-1  text-center space-y-7  '>
-                    <div className='bg-venue-card flex items-center  '>
-                        <div className='w-96 flex-1 flex-col justify-center'>
-                            <h1 className='font-bold text-4xl text-color-primary'>Venues</h1>
-                            <p className='text-venue-text'>Book the best venue banquate hall</p>
+                    <Link to='/banquate'>
+                        <div className='bg-venue-card flex items-center  '>
+                            <div className='w-96 flex-1 flex-col justify-center'>
+                                <h1 className='font-bold text-4xl text-color-primary'>Venues</h1>
+                                <p className='text-venue-text'>Book the best venue banquate hall</p>
+                            </div>
+                            <div className='flex-1'>
+                                <img src={"./img/sectiom-img.jpg"} className='img-side' alt="venu" />
+                            </div>
                         </div>
-                        <div className='flex-1'>
-                            <img src={"./img/sectiom-img.jpg"} className='img-side' alt="venu" />
-                        </div>
-                    </div>
+                    </Link>
+
                     <div className='bg-[#4E5787] flex items-center '>
                         <div className='w-96 flex-1 flex-col justify-center'>
                             <h1 className='font-bold text-4xl text-color-primary'>Decorators</h1>
@@ -31,8 +33,10 @@ const Services = () => {
                             <img src={"./img/sectiom-img.jpg"} className='img-side' alt="venu" />
                         </div>
                     </div>
+
                 </div>
                 <div className='flex-1  text-center space-y-7 '>
+
                     <div className='bg-[#657073] flex items-center '>
                         <div className='flex-1'>
                             <img src={"./img/sectiom-img.jpg"} className='img-side2' alt="venu" />

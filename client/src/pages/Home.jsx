@@ -7,6 +7,7 @@ import Services from '../component/Services'
 import Layout from '../component/Layout'
 import Testinomials from '../component/Testinomials'
 import Footer from '../component/Footer'
+import Information from '../component/Information'
 // import { Routes, Route } from 'react-router-dom'
 
 
@@ -18,7 +19,9 @@ const Home = () => {
             <Register />
             <Services />
             <Layout />
+
             <Testinomials />
+            <Information />
             <Footer />
         </>
     )

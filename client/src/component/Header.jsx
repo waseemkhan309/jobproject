@@ -12,10 +12,10 @@ const Header = () => {
         setIsMenuOpen(!isMenuopen)
     }
     const navItems = [
-        { link: "Home", path: "banquate" },
-        { link: "Servces", path: "banquate" },
-        { link: "About", path: "banquate" },
-        { link: "Contact", path: "banquate" },
+        { link: "Home", path: "home" },
+        { link: "Servces", path: "services" },
+        { link: "About", path: "about" },
+        { link: "Contact", path: "contact" },
     ]
 
     return (
