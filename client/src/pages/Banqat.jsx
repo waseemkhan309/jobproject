@@ -5,14 +5,14 @@ import DataTake from '../component/banquate/DataTake'
 import Footer from '../component/Footer'
 import Information from '../component/Information'
 import Webbook from '../component/Webcook'
-// import Cart from '../component/banquate/Cart'
+import Cart from '../component/banquate/Cart'
 
 const Banqat = () => {
     return (
         <>
             <Header />
             <DataTake />
-            {/* <Cart /> */}
+            <Cart />
             <Webbook />
             <Information />
             <Footer />

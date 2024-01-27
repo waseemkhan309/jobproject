@@ -5,7 +5,7 @@ import Signup from './pages/Signup'
 import Signin from './pages/Signin'
 import Home from './pages/Home'
 import Banqat from './pages/Banqat'
-import Cart from './component/banquate/Cart'
+
 
 const App = () => {
   return (
@@ -14,7 +14,6 @@ const App = () => {
         <Route path='/signup' element={<Signup />} />
         <Route path='/signin' element={<Signin />} />
         <Route path='/banquate' element={<Banqat />} />
-        <Route path='/cart' element={<Cart />} />
         <Route path='/' element={<Home />} />
       </Routes>
     </>

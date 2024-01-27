@@ -10,7 +10,7 @@ const Information = () => {
     return (
         <div className='flex flex-wrap gap-20  bg-color-lightgreen  p-10'>
             <div className='text-2xl'>
-                <h1 className='text-4xl mb-4'>Contact us</h1>
+                <h1 className='text-3xl mb-4'>Contact us</h1>
                 <ul>
                     <li className='flex '><span className='mr-3'><IoMdCall /></span> 0300 1234567</li>
                     <li className='flex '><span className='mr-3'><FaWhatsapp /></span> Whatsapp</li>
@@ -19,7 +19,7 @@ const Information = () => {
                 </ul>
             </div >
             <div className='text-2xl'>
-                <h1 className='text-4xl mb-4'>Follow  us on: </h1>
+                <h1 className='text-2xl mb-4'>Follow  us on: </h1>
                 <ul >
                     <li className='flex'><span className='mr-3'><FaFacebookF /></span> Facebook</li>
                     <li className='flex'><span className='mr-3'><FaTwitter /></span> Twitter</li>
@@ -28,10 +28,10 @@ const Information = () => {
                 </ul>
             </div >
             <div className='text-2xl'>
-                <h1 className='text-4xl mb-4'>Download Our App </h1>
+                <h1 className='text-2xl mb-4'>Download Our App </h1>
                 <ul >
-                    <li className='text-3xl underline'>From PlayStor</li>
-                    <li className='text-3xl underline'>From AppStore</li>
+                    <li className='text-3xl mb-3 bg-gray-800 rounded-md p-5 text-white'>From PlayStor</li>
+                    <li className='text-3xl  bg-gray-800 rounded-md p-5 text-white'>From AppStore</li>
 
                 </ul>
             </div >

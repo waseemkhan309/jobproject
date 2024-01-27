@@ -5,8 +5,6 @@ import { PiDiamondsFour } from "react-icons/pi";
 import { FaSearch } from "react-icons/fa";
 
 
-
-
 const DataTake = () => {
     return (
         <>
@@ -23,7 +21,7 @@ const DataTake = () => {
                         <input type="text" id='space' />
                     </form>
                 </div>
-                <div className='flex justify-between '>
+                <div className='flex justify-between items-center '>
                     <div className='m-10'>
                         <h1 className='text-3xl font-semibold'>Banquet Halls</h1>
                         <span>Choose,book and enjoy</span>
@@ -31,9 +29,9 @@ const DataTake = () => {
                     <div className='flex m-10'>
                         <span className='text-3xl '><CgMenuGridR /></span>
                         <span className='text-3xl ml-2'><PiDiamondsFour /></span>
-                        <span className='bg-color-lightgreen  flex ml-2  ' >
+                        <span className='  flex ml-2  ' >
                             <input type='text' className='h-7 outline-none text-black' placeholder='Search...' />
-                            <FaSearch className='text-black cursor-pointer m-2 ' />
+                            <FaSearch className='text-color-lightgreen   cursor-pointer m-2 ' />
                         </span>
                     </div>
                 </div>
