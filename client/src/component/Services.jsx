@@ -1,12 +1,15 @@
 /* eslint-disable no-unused-vars */
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Services = () => {
     return (
         <div>
             <div className=' flex justify-between p-10 '>
                 <h1 className='text-4xl'>Main Services</h1>
-                <button className='bg-color-primary px-10 py-3 border-rad text-white font-semibold'>Become a Provider</button>
+                <Link to='/banquate'>
+                    <button className='bg-color-primary px-10 py-3 border-rad text-white font-semibold'>Become a Provider</button>
+                </Link>
             </div>
             <div className='flex space-5 gap-5 p-5  w-full flex-wrap '>
                 <div className='flex-1  text-center space-y-7  '>

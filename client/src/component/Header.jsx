@@ -12,10 +12,10 @@ const Header = () => {
         setIsMenuOpen(!isMenuopen)
     }
     const navItems = [
-        { link: "Home", path: "home" },
-        { link: "Servces", path: "services" },
-        { link: "About", path: "about" },
-        { link: "Contact", path: "contact" },
+        { link: "Home", path: "banquate" },
+        { link: "Servces", path: "banquate" },
+        { link: "About", path: "banquate" },
+        { link: "Contact", path: "banquate" },
     ]
 
     return (
@@ -23,7 +23,7 @@ const Header = () => {
             <nav className=' bg-color-lightgreen  font-medium flex justify-around items-center h-[10vh]'>
                 {/* logo */}
                 <div className="">
-                    <Link className='text-color-primary text- text-2xl font-bold ' to='/'>
+                    <Link className='text-color-primary  text-2xl font-bold ' to='/'>
                         <span > WedBook </span>
                     </Link>
                 </div>

@@ -7,6 +7,8 @@ import Services from '../component/Services'
 import Layout from '../component/Layout'
 import Testinomials from '../component/Testinomials'
 import Footer from '../component/Footer'
+// import { Routes, Route } from 'react-router-dom'
+
 
 const Home = () => {
     return (
