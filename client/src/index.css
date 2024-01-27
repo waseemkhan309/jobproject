@@ -15,6 +15,7 @@
   background-size: cover;
   background-position: center;
   opacity: 90%;
+  /* position: relative; */
 }
 .img-side {
   border-radius: 100px 0px 0px 100px;
@@ -31,7 +32,7 @@
 .bg-img2 {
   background-image: url(./img/img4.jpg);
   width: 100%;
-  height: auto;
+  height: 50vh;
   background-size: cover;
   background-position: center;
   opacity: 70%;
