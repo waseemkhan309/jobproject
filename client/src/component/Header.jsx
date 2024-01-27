@@ -20,12 +20,14 @@ const Header = () => {
 
     return (
         <>
-            <nav className=' bg-color-lightgreen text-lg font-medium flex justify-around items-center h-[10vh]'>
+            <nav className=' bg-color-lightgreen  font-medium flex justify-around items-center h-[10vh]'>
+                {/* logo */}
                 <div className="">
                     <Link className='text-color-primary text- text-2xl font-bold ' to='/'>
                         <span > WedBook </span>
                     </Link>
                 </div>
+
                 {/* showing navbar */}
                 <div className=" hidden md:flex">
                     <ul className='md:flex  space-x-12 '>
@@ -34,12 +36,14 @@ const Header = () => {
                         }
                     </ul>
                 </div>
+
                 {/* signin  and signout */}
                 <div className="space-x-6">
-                    <Link to='/signin'><button className='py-2 px-4 bg-transparent hover:rounded-md bg-color-primary border-2 border-green-400 font-semibold  '> Sig In</button></Link>
-                    <Link to='/signup'><button className='py-2 px-4 bg-transparent rounded-md border-2 hover:border-green-400 font-semibold '> Sig up </button></Link>
+                    <Link to='/signin'><button className='py-2 px-4  rounded-md bg-color-primary  font-semibold  '> Sign In</button></Link>
+                    <Link to='/signup'><button className='py-2 px-4 bg-transparent rounded-md border-2 hover:border-green-400 font-semibold '> Sign up </button></Link>
 
                 </div>
+
                 {/* monile design */}
                 <div className='flex md:hidden ' >
                     <button onClick={toggleMenu} className='text-black focus:outline-none'>

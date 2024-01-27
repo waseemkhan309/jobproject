@@ -6,9 +6,9 @@ import { Link } from 'react-router-dom'
 const Signin = () => {
     return (
         <>
-            <div className='bg-gray-300 h-screen  '>
+            <div className='bg-color-lightgreen h-screen  '>
                 <div className='container mx-auto pt-[10vh] '>
-                    <div className='bg-green-600 text-white  h-[10vh] flex justify-center items-center'>
+                    <div className='bg-color-primary text-white  h-[10vh] flex justify-center items-center'>
                         <h1 className='text-2xl'>Signin to WebBook</h1>
                     </div>
                     <div className='bg-white p-10  flex flex-col justify-center items-center'>
@@ -22,10 +22,11 @@ const Signin = () => {
                                     <input type='checkbox' className='cursor-pointer relative ' />
                                     <span className='ml-2'>Show password</span>
                                 </div>
-                                <span className='text-green-600 pointer'>Forget Password?</span>
+                                <span className='text-color-primary pointer'>Forget Password?</span>
                             </div>
-                            <button type='submit' className='cursor-pointer border-2 border-green-400 hover:rounded-md px-5 py-2' >SignIn</button>
-                            <span className='text-green-600'>Don't have an account?</span>
+                            <button type='submit' className='cursor-pointer border-2 border-color-primary hover:rounded-md px-5 py-2' >SignIn</button>
+                            <span className='text-color-primary cursor-pointer'>
+                                <Link to='/signup'>Don't have an account?</Link></span>
                         </form>
                     </div>
 

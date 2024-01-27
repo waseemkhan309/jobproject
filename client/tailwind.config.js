@@ -4,16 +4,21 @@ export default {
   theme: {
     extend: {
       colors: {
-        "color-primary": "#34ebba",
-        "color-lightgreen": "#edf7f3",
+        "color-primary": "#05C7AA",
+        "dark-green": "#10BE94",
+        "color-lightgreen": "#F4FAFF",
+        "background-color": "#006089",
+        "light-gray": "#F4FAFF",
+        "venue-text": "#B9B9B9",
+        "venue-card": "#976467",
       },
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "20px",
-          md: "50px",
-        },
-      },
+      // container: {
+      //   center: true,
+      //   padding: {
+      //     DEFAULT: "20px",
+      //     md: "50px",
+      //   },
+      // },
     },
   },
   plugins: [],
